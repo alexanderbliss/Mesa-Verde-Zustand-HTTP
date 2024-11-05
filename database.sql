@@ -1,6 +1,3 @@
-DROP TABLE IF EXISTS "bikes";
-
-
 CREATE TABLE "bikes" (
   "id" SERIAL PRIMARY KEY,
   "manufacturer" VARCHAR(100) NOT NULL,
